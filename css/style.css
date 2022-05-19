@@ -1,0 +1,335 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+/*font-family: 'Source Serif Pro', serif;*/
+/*-------------------------*/
+
+body {
+	font-family: 'Tenor Sans', sans-serif;
+	font-weight: 400;
+	color: #000000;
+}
+.wrapper{
+	
+	background: #E5E5E5;
+}
+.header {
+	background: #ffffff;
+	border-bottom: 1px solid #E6E6E6;
+}	
+.header__top {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 90px;
+}
+.top__list {
+	width: 250px;
+	display: flex;
+	justify-content: space-around;
+}	
+.top__li {
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #000000;
+	transition: all 0.5s ease 0s;
+}
+a:hover {
+	color: aqua;
+}
+/*------------------*/
+main {
+	
+	max-width: 1230px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 60px;
+}
+.bloc1 {
+	display: flex;
+	margin-bottom: 35px;
+}
+.bloc1__text {
+	padding-left: 51px;
+}
+h6 {
+	font-family: 'Libre Franklin';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 12px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #999999;
+}
+.h6__top {
+	padding-top: 5px;
+	padding-bottom: 18px;
+}
+.h1 {
+
+	font-size: 36px;
+	line-height: 42px;
+	text-transform: uppercase;
+}
+.p1 {
+	padding: 27px 0;
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #666666;
+}
+.h6 {
+	padding-top: 15px;
+	font-weight: 700;
+	color: #000000;
+}
+.a__h6 {	
+	padding-left: 5px;
+	color: #000000;
+}
+/*----------------------*/
+
+.bloc2 {
+	height: 963px;
+}
+.bloc2__a {
+	width: 387px;
+}
+.bloc2__h2 {
+
+	font-size: 20px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #000000;
+}
+.bloc2a {
+	padding-top: 25px;
+	display: flex;
+	justify-content: space-between;
+}
+.bloc2__h6 {
+	margin-top: 24px;
+	margin-bottom: 18px;
+}
+.bloc2__p {
+	margin-top: 15px;
+	margin-bottom: 25px;
+
+}
+p {
+	font-family: 'Libre Franklin';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 10px;
+	line-height: 12px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+
+}
+.bloc2__ap {
+	color: #000000;
+}
+.bloc2b {
+	padding-top: 25px;
+	display: flex;
+	justify-content: space-between;
+}
+/*------------------------*/
+
+.bloc3 {
+	margin-top: 65px;
+	border-top: 1px solid #E6E6E6;;
+	padding: 90px 0;
+	border-bottom: 1px solid #E6E6E6;;
+
+}
+.bloc3a {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.bloc3__a {
+	width: 285px;
+}
+
+.bloc3b {
+	margin-top: 25px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 65px;
+}
+.link {
+	
+	margin: 0 498px;
+}
+.link1 {
+	font-family: 'Libre Franklin';
+	font-size: 10px;
+	line-height: 12px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #000000;
+	border: 1px solid #000000;
+	background: #FFFFFF;
+	padding: 21px 26px;
+	display: block;
+}
+
+.bloc4 {
+	display: block;
+	padding: 90px 0 65px 0;
+
+}
+.bloc4a,
+.bloc4b {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+/*---------------------*/
+
+
+.footer {
+	
+	background: #141414;
+}
+.footer1 {
+	width: 1230px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.footer__top {
+	padding: 93px 0 62px 0;
+	border-bottom: 1px solid #4D4D4D;
+}
+a {
+	color: #FFFFFF
+}
+.p__footer {
+	font-family: 'Libre Franklin';
+	font-size: 10px;
+	line-height: 12px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #666666;
+	display: inline-block;
+	padding-left: 15px;
+	padding-top: 8px;
+}
+.footer__centr {
+	display: flex;
+	justify-content: space-between;
+}
+p {
+	color: #666666;
+	font-weight: 400;
+	
+}
+.p__centr {
+	padding-top: 60px;
+	padding-bottom: 5px;
+}
+h3 {
+	font-family: 'Libre Franklin';	
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+.h3 {
+	display: block;
+	padding-top: 15px;
+}
+.centr1__2 {
+	padding-top: 77px;
+}
+.form__item {
+	margin-top: 15px;
+	
+}
+.form__label {
+	background: #FFFFFF;
+	font-family: 'Libre Franklin';
+	font-size: 10px;
+	line-height: 12px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #666666;
+}
+.form__button {
+	font-family: 'Libre Franklin';	
+	font-size: 10px;
+	line-height: 12px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	padding: 18px 24px;
+	background: #000000;
+}
+.inp {
+	width: 221px;
+	font-family: 'Libre Franklin';
+	font-size: 10px;
+	line-height: 12px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #666666;
+	padding: 18px 24px;
+}
+.footer__bottom {
+	width: 580px;
+	display: flex;
+	justify-content: space-between;
+}
+.h3__botton {
+	display: block;
+	padding-bottom: 95px;
+	padding-top: 15px;
+}
